@@ -1,6 +1,6 @@
 <template>
 <div class="bg-image" style="
-     background: url('/mascot-with-text.svg') no-repeat center;
+     background: url('/mascot-tight-with-text.svg') no-repeat center;
      background-size: 50%;
      height: 100vh;"
 ></div>
