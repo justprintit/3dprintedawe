@@ -80,7 +80,6 @@ export default {
           secondary: '#0F3460',
           success: '#33D067',
           danger: '#FF5353',
-          warning: '#FFCD4E',
           warning: '#FF8A48',
           info: '#5e5ce6',
           dark: '#242939',
