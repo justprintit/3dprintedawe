@@ -1,6 +1,9 @@
+// vim: set ts=2 sw=2 et:
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  srcDir: 'web/client',
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: false,
