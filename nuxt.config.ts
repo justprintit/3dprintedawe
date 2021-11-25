@@ -51,6 +51,8 @@ export default {
     // '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    // https://vite.nuxtjs.org/getting-started/config
+    'nuxt-vite'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -65,7 +67,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: ['~/assets/styles/vuetify.scss'],
     defaultAssets: {
       font: false,
     },
@@ -98,4 +100,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // https://nuxtjs.org/docs/features/configuration#edit-host-and-port
+  server: {
+    host: '0', // default: localhost
+  },
 }

@@ -45,6 +45,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "@mdi/font": "^4.8.95",
+    "nuxt-vite": "^0.3.5",
     "nuxt-webfontloader": "^1.1.0"
   }
 }
