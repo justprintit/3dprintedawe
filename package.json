@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
+    "build:analyze": "nuxt build -a",
+    "lint": "eslint . --ext .ts,.vue",
+    "lint:fix": "eslint . --ext .ts,.vue --fix",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -14,6 +17,10 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.7",
-    "@nuxt/typescript-build": "^2.1.0"
+    "@nuxt/typescript-build": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-vue": "^8.2.0"
   }
 }
