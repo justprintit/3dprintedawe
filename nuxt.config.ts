@@ -1,5 +1,7 @@
 // vim: set ts=2 sw=2 et:
 export default {
+  srcDir: 'web/client',
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 

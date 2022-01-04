@@ -6,8 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "build:analyze": "nuxt build -a",
-    "lint": "eslint . --ext .ts,.vue",
-    "lint:fix": "eslint . --ext .ts,.vue --fix",
+    "lint": "eslint web/client --ext .ts,.vue",
+    "lint:fix": "eslint web/client --ext .ts,.vue --fix",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },

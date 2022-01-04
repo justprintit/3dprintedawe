@@ -17,10 +17,10 @@
     "baseUrl": ".",
     "paths": {
       "~/*": [
-        "./*"
+        "./web/client/*"
       ],
       "@/*": [
-        "./*"
+        "./web/client/*"
       ]
     },
     "types": [
