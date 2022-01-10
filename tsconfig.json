@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -25,12 +26,19 @@
     },
     "types": [
       "@nuxt/types",
-      "@types/node"
-    ]
+      "@types/node",
+      "nuxt-i18n"
+    ],
+    "resolveJsonModule": true,
+    "rootDir": "./",
+    "declarationDir": "./lib",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules",
     ".nuxt",
-    "dist"
+    "dist",
+    "_theme"
   ]
 }
