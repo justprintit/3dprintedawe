@@ -66,7 +66,7 @@
 
 import { SfModal, SfButton, SfLoader, SfBar, SfInput } from '@storefront-ui/vue';
 import { ref, computed, useRoute } from '@nuxtjs/composition-api';
-import { useForgotPassword, forgotPasswordGetters } from '@vue-storefront/goshop';
+import { useForgotPassword, forgotPasswordGetters } from '@goshop/vsf';
 import { ValidationProvider, ValidationObserver, extend } from 'vee-validate';
 import { required } from 'vee-validate/dist/rules';
 

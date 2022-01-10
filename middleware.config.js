@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
     goshop: {
-      location: '@vue-storefront/goshop-api/server',
+      location: '@goshop/vsf-api/server',
       configuration: {}
     }
   }

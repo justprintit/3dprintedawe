@@ -1,5 +1,5 @@
 {
-  "name": "@vue-storefront/goshop-theme",
+  "name": "@goshop/vsf-theme",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@storefront-ui/vue": "0.11.4",
-    "@vue-storefront/goshop": "0.0.1",
+    "@goshop/vsf": "0.0.1",
     "@vue-storefront/middleware": "~2.5.3",
     "@vue-storefront/nuxt": "~2.5.3",
     "@vue-storefront/nuxt-theme": "~2.5.3",

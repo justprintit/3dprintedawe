@@ -95,7 +95,7 @@ import {
   SfLink
 } from '@storefront-ui/vue';
 import { computed, ref } from '@nuxtjs/composition-api';
-import { useUserOrder, orderGetters } from '@vue-storefront/goshop';
+import { useUserOrder, orderGetters } from '@goshop/vsf';
 import { AgnosticOrderStatus } from '@vue-storefront/core';
 import { onSSR } from '@vue-storefront/core';
 

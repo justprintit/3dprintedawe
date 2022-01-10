@@ -49,17 +49,17 @@ export default {
     ['@vue-storefront/nuxt', {
       useRawSource: {
         dev: [
-          '@vue-storefront/goshop',
+          '@goshop/vsf',
           '@vue-storefront/core'
         ],
         prod: [
-          '@vue-storefront/goshop',
+          '@goshop/vsf',
           '@vue-storefront/core'
         ]
       }
     }],
     ['@vue-storefront/nuxt-theme'],
-    ['@vue-storefront/goshop/nuxt', {}]
+    ['@goshop/vsf/nuxt', {}]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

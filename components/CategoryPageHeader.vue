@@ -78,7 +78,7 @@
 <script>
 import { computed } from '@nuxtjs/composition-api';
 import { useUiHelpers, useUiState } from '~/composables';
-import { useFacet, facetGetters } from '@vue-storefront/goshop';
+import { useFacet, facetGetters } from '@goshop/vsf';
 import FiltersSidebar from '~/components/FiltersSidebar';
 import {
   SfButton,

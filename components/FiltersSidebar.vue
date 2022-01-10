@@ -91,7 +91,7 @@ import {
 } from '@storefront-ui/vue';
 
 import { ref, computed, onMounted } from '@nuxtjs/composition-api';
-import { useFacet, facetGetters } from '@vue-storefront/goshop';
+import { useFacet, facetGetters } from '@goshop/vsf';
 import { useUiHelpers, useUiState } from '~/composables';
 import Vue from 'vue';
 
